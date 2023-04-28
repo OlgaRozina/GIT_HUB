@@ -1,0 +1,317 @@
+JSON
+
+1. Create an external repository called "json"
+GitHub > New repository > Create repository 
+
+2.Clone the JSON repository to a local machine
+$ git clone HTTPS
+
+3.Inside the local JSON create a “new.json” file
+$ cd JSOM
+$ touch new.json
+
+4.Add changes to indexed files section
+$ git add touch new.json
+
+5. Commit the file
+$ git commit -m "First commit"
+
+6.Push the file to the external GitHub repository
+$ git push
+
+7.Edit the content of the file “new.json” - write information about yourself. Everything is written in json format
+$ vim new.json
+press i
+{
+	"Person" :
+	{
+	"name" : "Olga",
+	"surname" : "Rozina",
+	"age" : 24,
+	"hobby" : "hiking",
+	"country" : "Lithuania",
+	"city" : "Vilnus"
+	}
+}
+
+press Esc > :wq
+
+8. Push changes the an external repository
+$ git add new.json
+$ git commit -m "JSON"
+$ git push
+
+9. Create a file "preferences.json"
+10.In the file "preferences.json", add information about your preferences in json format. 
+$ cat > preferences.json
+{
+"Prefences":
+    {
+     "eat":"pizza",
+     "film": "Interstellar",
+     "series": "Force_majeure",
+     "time of year": "summer"
+     }
+}
+ 11. Create a file "skills.json" and add information about the skills that will be studied in the course in json format
+$ cat > skills.json
+{
+"skill_1": "GIT",
+"skill_2": "SQL",
+"skill_3": "Postman",
+"skill_4": "Fiddler", 
+"skill_5": "Android_Studio",
+"skill_6": "Charles",
+"skill_7": "HTTP",
+"skill_8": "JSON", 
+"skill_9": "XML"
+}
+
+12. Send two files at once to the external repository
+$ git add .
+$ git commit preferences.json skills.json -m "First commit"
+$ git push
+
+13.On the web interface, create a file "bug_report.txt"
+ Add file > Create new file
+
+14.Press "Commit changes", save changes on the web interface
+Commit new file
+
+15. On the web interface, modify the file "bug_report.json" and add a bug report in json format.
+{
+"ID": 1,
+"Enviroment": {
+               "OS": "Win_10",
+               "Browser": "Chrome_112"
+               },
+"Summary": "404 error when user is accessined the purchase order report page as a sales manager",
+"Actual result" : "The report isn't showed as per the criteria selected",
+"Expected result": "The report should show as per the criteria selected",
+"Step to reproduce": {
+                      "1) Login as Sales Manager",
+                      "2) Go to the Reports page and choose \"Purchase Order Report\"",
+                      "3) Select any filter criteria",
+                      "4) Click the \"Show Report\" button"
+                      },
+"Severity": "Medium",
+"Priirity": "Normal",
+"Repruducibility": "Always",
+"Symptom": "Missing_feature",
+"Workaround": "No",
+"Attachment": "Link",
+"Status": "Open",
+"Author": "Olga Rozina",
+"Sign to": "Olga Fefilova",
+}
+
+16. Press "Commit changes" and save changes on the web interface
+Commit changes
+
+17. Synchronize the external and the local JSON repository
+$ git pull
+
+XML
+
+18. Create an external repository called XML.
+GitHub > New repository > Create repository 
+
+19. Clone the XML repository to a local machine
+$ git clone HTTPS
+
+20. Inside the local XML create a “new.xml” file
+$ cd XML
+$ touch new.xml
+
+21.Add changes to indexed files section
+$ git add .
+
+22. Commit the file
+$ git commit -m "First commit"
+
+23.Push the file to the external GitHub repository
+$ git push
+
+24. Edit the content of the file “new.xml” - write information about yourself. Everything is written in xml format
+$ vim new.xml
+press i
+
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+	<name>Olga</name>
+	<surname>Rozina</surmane>
+	<age>24</age>
+	<hobby>hiling</hobby>
+	<country>Lithuania</country>
+	<city>Vilnus</city>
+
+</information>
+
+press Esc > :wq
+
+25.Push changes the an external repository
+$ git add .
+$ git commit -m "XML"
+$ git push
+
+26. Create a file "preferences.xml"
+27.In the file "preferences.xml", add information about your preferences in xml format. 
+$ cat > preferences.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+    <eat>pizza</eat>
+    <film>Interstellar</film>
+    <series>Force_majeure</series>
+    <time_of_year>summer</time_of_year>
+</preferences>
+
+28.Create a file "skills.xml" and add information about the skills that will be studied in the course in xml format
+$ cat > skills.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+    <skill_1>GIT</skill_1>
+    <skill_2>SQL</skill_2>
+    <skill_3>Postman</skill_3>
+    <skill_4>Fiddler</skill_4
+    <skill_5>Android_Studio</skill_5>
+    <skill_6>Charles</skill_6>
+    <skill_7>HTTP</skill_7>
+    <skill_8>JSON</skill_8>
+    <skill_9>XML</skill_9>
+</skills>
+
+29. Send two files at once to the external repository
+$ git add .
+$ git commit preferences.xml skills.xml -m "First commit"
+$ git push
+
+30. On the web interface, modify the file "bug_report.xml" and add a bug report in xml format.
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report_1>
+    <ID>1</ID>
+    <Enviroment>
+         <OS>Win_10</OS>
+         <Browser>Chrome_112</Browser>
+     </Enviriment>
+     <Summary>404 error when user is accessined the purchase order report page as a sales manager</Summary>
+     <Actual_result>The report isn't showed as per the criteria selected</Actual_result>
+     <Expected_result>The report should show as per the criteria selected</Expected_result>
+     <Step_to_reproduce>
+         <STR_1>Login as Sales Manager</STR_1>
+         <STR_2>Go to the Reports page and choose Purchase Order Report</STR_2>
+         <STR_3>Select any filter criteria</STR_3>
+         <STR_4>Click the Show Report button</STR_4>
+     </Step_to_reproduce>
+     <Severity>Medium</Severity>
+     <Priirity>Normal</Priirity>
+     <Repruducibility>Always</Repruducibility>
+     <Symptom>Missing_feature</Symptom>
+     <Workaround>No</Workaround>
+     <Attachment>Link</Attachment>
+     <Status>Open</Status>
+     <Author>Olga_Rozina<Author>
+     <Sign_to>Olga_Fefilova</Sign_to>
+</bug_repost_1> 
+
+31. Press "Commit changes" and save changes on the web interface
+Commit changes
+
+32. Synchronize the external and the local XML repository
+$ git pull
+
+TXT
+
+33. Create an external repository called TXT.
+GitHub > New repository > Create repository 
+
+34. Clone the TXT repository to a local machine
+$ git clone HTTPS
+
+35. Inside the local XML create a “new.txt” file
+$ cd TXT
+$ touch new.txt
+
+36.Add changes to indexed files section
+$ git add .
+
+37. Commit the file
+$ git commit -m "First commit"
+
+38.Push the file to the external GitHub repository
+$ git push
+
+39. Edit the content of the file “new.txt” - write information about yourself. Everything is written in txt format
+$ vim new.txt
+press i
+name: Olga
+surname: Rozina
+age: 24 
+hobby: hiling 
+country: Lithuania 
+city: Vilnius 
+press Esc > :wq
+
+40.Push changes the an external repository
+$ git add .
+$ git commit -m "TXT"
+$ git push
+
+41. Create a file "preferences.txt"
+42.In the file "preferences.txt", add information about your preferences in txt format. 
+$ cat > preferences.txt
+eat: pizza 
+film: Interstellar 
+series: Force_majeure 
+time_of_year: summer
+
+43.Create a file "skills.txt" and add information about the skills that will be studied in the course in txt format
+$ cat > skills.txt
+GIT: a version control system used for software development to track changes in code over time and collaborate with other developers.
+SQL: a programming language used for managing and manipulating data in relational databases.
+Postman: a popular tool for testing and debugging APIs.
+Fiddler: a web debugging proxy tool used to capture and analyze HTTP/HTTPS traffic between a computer and the internet.
+Android Studio: an integrated development environment (IDE) for developing Android mobile applications.
+Charles: a web proxy tool used to monitor and debug web traffic.
+HTTP: a protocol used for communication between web servers and clients, such as web browsers or mobile apps.
+JSON: a lightweight data interchange format used for storing and exchanging data between a server and a client.
+XML: a markup language used for describing data and enabling communication between different systems.
+
+44. Send two files at once to the external repository
+$ git add .
+$ git commit preferences.txt skills.txt -m "First commit"
+$ git push
+
+45. On the web interface, modify the file "bug_report.txt" and add a bug report in txt format.
+ID: 1
+Environment: OS = Win_10, Browser = Chrome_112
+Summary: 404 error when user is accessing the purchase order report page as a sales manager
+Actual result: The report isn't shown as per the criteria selected
+Expected result: The report should show as per the criteria selected
+Steps to reproduce:
+Login as Sales Manager
+Go to the Reports page and choose Purchase Order Report
+Select any filter criteria
+Click the Show Report button
+Severity: Medium
+Priority: Normal
+Reproducibility: Always
+Symptom: Missing_feature
+Workaround: No
+Attachment: Link
+Status: Open
+Author: Olga_Rozina
+Sign to: Olga_Fefilova
+
+46. Press "Commit changes" and save changes on the web interface
+Commit changes
+
+47. Synchronize the external and the local TXT repository
+$ git pull
+
+
+
+
+
+
+
+
