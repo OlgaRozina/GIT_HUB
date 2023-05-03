@@ -1,0 +1,12 @@
+	Check booking by the registered user
+	Check booking by the unregistered user
+	Check booking if to enter data yourself in Last Name and First Name fields
+	Check booking if to enter data yourself in the Choose reservation and Select table fields
+	Check feature select values from the dropdown list in Select table and Choose reservation fields
+	Check if the selected place appears in You chose this place field
+	Check the ability to confirm the reservation of the selected place
+	Check the ability to cancel the reservation of the selected place
+	Check if field values are restored after the page restart
+	Check if the link works at the selected place
+	Check if field values are restored after the page restart
+	Check the closure of the form by filling all fields
