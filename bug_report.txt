@@ -1,0 +1,18 @@
+ID: 1
+Environment: OS = Win_10, Browser = Chrome_112
+Summary: 404 error when user is accessing the purchase order report page as a sales manager
+Actual result: The report isn't shown as per the criteria selected
+Expected result: The report should show as per the criteria selected
+Steps to reproduce:
+Login as Sales Manager
+Go to the Reports page and choose Purchase Order Report
+Select any filter criteria
+Click the Show Report button
+Severity: Medium
+Priority: Normal
+Reproducibility: Always
+Symptom: Missing_feature
+Workaround: No
+Attachment: Link
+Status: Open
+Author: Olga_Rozina
