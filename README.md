@@ -1,4 +1,4 @@
-#This is a part of GIT homework - GIT_HUB
+# This is a part of GIT homework - GIT_HUB
 ## 1. On the local repository, make branches for:
 - Postman
 - Jmeter
@@ -10,7 +10,7 @@
 ```
 Create the local repository  > New repository > Create repository
 ```
-####Create branches:
+#### Create branches:
 ```
 git branch Postman
 git branch Jmeter
