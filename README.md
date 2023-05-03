@@ -96,9 +96,7 @@ git push
 ```
 ***
 ## 9. Make a Pull Request of the checkList branch in main, on the remote repository:
-
 *Go to the remote repository in the checkList branch > Compare&pull requset*
-
 ***
 ## 10. Synchronize external and local main branches:
 ```
